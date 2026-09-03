@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
@@ -23,7 +23,7 @@ body {
 .row {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .row__narrow {
@@ -598,6 +598,7 @@ STEPS
   font-size: 20px;
   color: #243e63;
   line-height: 1;
+  margin-left: 0;
 }
 
 .step__para {
@@ -1460,6 +1461,10 @@ LARGE MOBILE MEDIA RESPONSIVENESS
     margin-top: 2.5rem;
   }
 
+  .value__title {
+    margin-left: 0;
+  }
+
   .values__list {
     min-width: 20rem;
     flex-direction: column;
@@ -1472,6 +1477,7 @@ LARGE MOBILE MEDIA RESPONSIVENESS
 
   .plan {
     margin-right: 0px;
+    margin-left: 0px;
   }
 
   #features .section__title,
