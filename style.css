@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
@@ -23,7 +23,7 @@ body {
 .row {
   width: 100%;
   max-width: 1200px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .row__narrow {
@@ -611,7 +611,7 @@ STEPS
 
 .steps__grid {
   position: absolute;
-  bottom: -100px;
+  bottom: -60px;
   left: 50%;
   transform: translateX(-50%);
   width: 10rem;
@@ -1579,9 +1579,16 @@ TABLET, LARGE SMARTPHONE MEDIA
     align-items: center;
   }
 
+  .step__title,
+  .value__title,
+  .quality__description {
+    margin: auto;
+    margin-top: 24px;
+  }
+
   .step__description {
     margin-top: 12px;
-    margin-left: 0;
+    margin: 0;
   }
 
   .values__list {
